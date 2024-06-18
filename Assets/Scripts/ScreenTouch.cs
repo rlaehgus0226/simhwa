@@ -15,6 +15,7 @@ public class ScreenTouch : MonoBehaviour
 
     public void OnClick()
     {
+        Debug.Log(Manager.Instance.value);
         Manager.Instance.gold += Manager.Instance.value;
         Manager.Instance.UpdateUI();
     }

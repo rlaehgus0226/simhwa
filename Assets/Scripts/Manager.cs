@@ -128,5 +128,6 @@ public class Manager : MonoBehaviour
 
         gold = 0;
         value = 10000;
+        Debug.Log(value);
     }
 }
